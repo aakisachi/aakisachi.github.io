@@ -149,6 +149,7 @@ a.card:active { transform: translateY(-1px) scale(0.99); transition-duration: 10
 .icon-gold   { background: linear-gradient(135deg, #fff0c9, #ffd27a); }
 .icon-teal   { background: linear-gradient(135deg, #d2f4ef, #93e0d4); }
 .icon-gray   { background: linear-gradient(135deg, #ececf0, #d4d4dc); }
+.icon-orange { background: linear-gradient(135deg, #ffe3d1, #ffc49b); }
 
 .card h3 {
   font-size: 1.15rem;
