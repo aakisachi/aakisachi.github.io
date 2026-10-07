@@ -31,6 +31,17 @@
   <div class="grid">
 
     <div class="card">
+      <div class="card-icon icon-blue">🗂️</div>
+      <h3>DESK</h3>
+      <p class="desc">依頼の受付から完了までを一覧で確認できる、本人専用の進捗ダッシュボード。作業報告と成果物をひとつの画面に整理。</p>
+      <div class="tags">
+        <span class="tag">Web</span>
+        <span class="tag">ダッシュボード</span>
+      </div>
+      <span class="cta quiet">本人専用・非公開</span>
+    </div>
+
+    <div class="card">
       <span class="badge-soon">準備中</span>
       <div class="card-icon icon-green">🌱</div>
       <h3>あめつち</h3>
@@ -58,7 +69,7 @@
     <a class="card" href="https://github.com/aakisachi/iroha" target="_blank" rel="noopener">
       <div class="card-icon icon-purple">🎨</div>
       <h3>iroha</h3>
-      <p class="desc">Finderのフォルダを色分けするmacOSメニューバーアプリ。親フォルダに色を付けると子孫フォルダへ自動で継承され、Mission Controlでも「どのフォルダか」が色でひと目で分かる。カラーホイールでほぼ無限の色に対応。</p>
+      <p class="desc">Finderのフォルダを色分けするmacOSメニューバーアプリ。親フォルダの色を子孫へ自動で継承し、新規作成・移動・改名にも追従。Mission Controlでも「どのフォルダか」が色でひと目で分かる。カラーホイールやHEXで色を選べて、一括解除もできる。</p>
       <div class="tags">
         <span class="tag">macOS</span>
         <span class="tag">Swift</span>
@@ -70,7 +81,7 @@
     <a class="card" href="https://github.com/aakisachi/zunda-notch" target="_blank" rel="noopener">
       <div class="card-icon icon-green">🫛</div>
       <h3>ずんだノッチ</h3>
-      <p class="desc">macOSのノッチに常駐して、Claude CodeとCodexの作業を見守るアプリ。完了や承認待ちを「できたのだ！」とずんだもんの声でお知らせ。ノッチから直接[許可][拒否]もできる。</p>
+      <p class="desc">macOSのノッチに常駐して、Claude CodeとCodexの作業を見守るアプリ。完了を「できたのだ！」、承認待ちを「許可がほしいのだ！」とずんだもんの声でお知らせ。Claude Codeの[許可][拒否]や、セッション一覧から作業アプリへの移動もノッチからできる。</p>
       <div class="tags">
         <span class="tag">macOS</span>
         <span class="tag">Swift</span>
@@ -82,7 +93,7 @@
     <a class="card" href="https://github.com/aakisachi/suno-prompt-generator" target="_blank" rel="noopener">
       <div class="card-icon icon-pink">🎵</div>
       <h3>Sunoプロンプト生成</h3>
-      <p class="desc">複数の歌詞をSunoのCustomモードへ順番に自動入力して、曲づくりを効率化するChrome拡張。キュー管理・CSV読込・バックグラウンド実行に対応。</p>
+      <p class="desc">歌詞・スタイル・タイトルをSunoのAdvancedモードへ順番に入力し、曲づくりを効率化するChrome拡張。CSV読込・繰り返し生成・バックグラウンド実行に対応。</p>
       <div class="tags">
         <span class="tag">Chrome拡張</span>
         <span class="tag">React</span>
@@ -93,7 +104,7 @@
     <a class="card" href="https://github.com/aakisachi/suno-lyrics-csv" target="_blank" rel="noopener">
       <div class="card-icon icon-orange">🎼</div>
       <h3>Suno歌詞CSVダウンローダー</h3>
-      <p class="desc">Sunoのワークスペース全曲のタイトル・歌詞・スタイルを、ボタンひとつでCSVに一括保存するChrome拡張。Excelでそのまま開ける文字化けなしのCSVを数秒で出力。</p>
+      <p class="desc">Sunoで開いているワークスペースの曲情報を、ボタンひとつでCSVに一括保存するChrome拡張。タイトル・歌詞・スタイル・曲URLなどを、Excelで開けるBOM付きUTF-8で出力。</p>
       <div class="tags">
         <span class="tag">Chrome拡張</span>
         <span class="tag">CSV</span>
@@ -105,7 +116,7 @@
     <a class="card" href="https://github.com/aakisachi/EdgeTranslator" target="_blank" rel="noopener">
       <div class="card-icon icon-blue">🌐</div>
       <h3>EdgeTranslator</h3>
-      <p class="desc">画面端に常駐する軽量リアルタイム翻訳ツール。画面キャプチャ→文字認識→翻訳まですべてMacの中で完結、外部へのデータ送信なし。</p>
+      <p class="desc">画面端に常駐する軽量な画面翻訳ツール。翻訳したい部分にウィンドウを重ねてボタンを押すと、英語を読み取って日本語訳を表示。画面キャプチャ・文字認識・翻訳をMacの中で処理し、画像や本文を外部APIへ送らない。</p>
       <div class="tags">
         <span class="tag">macOS</span>
         <span class="tag">Swift</span>
@@ -128,10 +139,12 @@
     <a class="card" href="https://github.com/aakisachi/glow-orbit" target="_blank" rel="noopener">
       <div class="card-icon icon-gold">🪐</div>
       <h3>GLOW ORBIT</h3>
-      <p class="desc">タップだけで遊べる周回アクションゲーム。恒星をまわる光のオーブを内外の軌道へジャンプさせ、トゲをよけてジェムを集めてハイスコアを狙う。</p>
+      <p class="desc">タップで軌道を切り替え、トゲをよけてジェムを集める周回アクションゲーム。増えていく軌道とコンボ、シールドでハイスコアを狙う。iOS版とブラウザ版を制作。</p>
       <div class="tags">
         <span class="tag">ゲーム</span>
         <span class="tag">Swift</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Canvas</span>
       </div>
       <span class="cta">GitHubで見る →</span>
     </a>
